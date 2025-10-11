@@ -1,0 +1,31 @@
+.a {
+    text-decoration: none;
+    /* убирает подчёркивание */
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    /* выравнивает иконку и текст по вертикали */
+    gap: 8px;
+    /* расстояние между текстом и иконкой */
+    transition: color 0.5s;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+
+
+}
+
+.headerButton-font {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #a8aebf;
+}
+
+.headerButton-font:hover {
+    color: #ffffff;
+}

@@ -1,0 +1,13 @@
+.paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #8e95a9;
+        margin: 20px 0 20px 0; /* 40px сверху, 0 справа, 0 снизу, 0 слева */
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
