@@ -1,5 +1,5 @@
 import './HeaderButton.css';
-import Picture from '../Picture/Picture';
+import Picture from '../SvgPicture/SvgPicture';
 
 function HeaderButton({text, path, link}) {
 
