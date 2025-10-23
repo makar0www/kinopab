@@ -1,8 +1,8 @@
-import './CardButton.css';
+import styles from './CardButton.module.css';
 
 function CardButton({ children }) {
   return (
-      <div className='card-button'>
+      <div className={styles['card-button']}>
           {children}
       </div>
   )

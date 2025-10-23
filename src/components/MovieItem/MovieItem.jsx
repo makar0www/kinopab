@@ -1,4 +1,4 @@
-import './MovieItem.css';
+import styles from './MovieItem.module.css';
 import { useState } from 'react';
 // import Picture from '../SvgPicture/SvgPicture';
 
@@ -12,20 +12,20 @@ function MovieItem({path, movie}) {
   }
 
   return (
-      <div className='movie_item'> 
+      <div className={styles['movie_item']}> 
 
-        <img src={path} className='movie-pic'/>
+        <img src={path} className={styles['movie-pic']}/>
 
-        <div className='star_container'>
-        <img src='/star.svg' className='star_pic'/>
-        <h2 className='counter_star' onClick={counter}>{count}</h2>
+        <div className={styles['star_container']}>
+        <img src='/star.svg' className={styles['star_pic']}/>
+        <h2 className={styles['counter_star']} onClick={counter}>{count}</h2>
         </div>
 
-        <h2 className='name_movie'>{movie}</h2>
+        <h2 className={styles['name_movie']}>{movie}</h2>
         
-        <div className='floor_container'>
-          <img src='/like.svg' className='like_svg'/>
-          <h2 className='add_fav'>В избранное</h2>
+        <div className={styles['floor_container']}>
+          <img src='/like.svg' className={styles['like_svg']}/>
+          <h2 className={styles['add_fav']}>В избранное</h2>
         </div>
 
       </div>

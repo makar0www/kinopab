@@ -1,8 +1,8 @@
-import './Footer.css';
+import styles from './Footer.module.css';
 
 function Footer({children}) {
   return (
-      <div className='footer'>
+      <div className={styles.footer}>
         {children}
       </div>
   )

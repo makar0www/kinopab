@@ -1,4 +1,4 @@
-import './InputType.css';
+import styles from './InputType.module.css';
 import Picture from '../SvgPicture/SvgPicture';
 import { useState } from 'react';
 import Button from '../Button/Button';
@@ -19,9 +19,9 @@ function InputType({placeholder, path, name, textButton, onSubmit}) {
   }
 
   return (
-      <form className='input-wrapper' onSubmit={handleSubmit}>
+      <form className={styles['input-wrapper']} onSubmit={handleSubmit}>
       {path && <Picture path={path}/>}
-      <input type='text' placeholder={placeholder} className='input'
+      <input type='text' placeholder={placeholder} className={styles.input}
       name={name} value={inputData}  onChange={handleChange}/>
       <Button text={textButton}/>
       </form>
