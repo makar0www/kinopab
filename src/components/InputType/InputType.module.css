@@ -21,6 +21,8 @@
 .input-wrapper {
     position: relative;
     display: inline-block;
+    margin-bottom: 100px;
+
 }
 
 .input-wrapper img {
@@ -33,3 +35,4 @@
     pointer-events: none;
     /* чтобы клик проходил сквозь иконку */
 }
+

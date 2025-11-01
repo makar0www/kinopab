@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    padding: 20px;
+    /* внутренние отступы */
+    box-sizing: border-box;
+    /* чтобы padding не ломал ширину */
+    display: flex;
+    /* превращаем .header в flex-контейнер */
+    justify-content: flex-end;
+    /* выравниваем содержимое по правому краю */
+    align-items: center;
+    /* выравниваем по вертикали по центру */
+    margin: 100px 0 0 0;
+
+}
+/* 
+.footer>img {
+    margin-right: auto;
+    "отталкивает" все остальные элементы вправо
+} */
+
+

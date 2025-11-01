@@ -1,8 +1,8 @@
-import './Headline.css';
+import styles from './Headline.module.css';
 
 function Headline({text}) {
   return (
-        <h1 className='headline'>{text}</h1>
+        <h1 className={styles.headline}>{text}</h1>
   )
 };
 
