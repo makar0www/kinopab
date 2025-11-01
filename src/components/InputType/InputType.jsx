@@ -15,7 +15,7 @@ function InputType({placeholder, path, name, textButton, onSubmit}) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onSubmit(inputData);
+    onSubmit({name: inputData});
   }
 
   return (
